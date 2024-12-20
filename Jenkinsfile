@@ -1,10 +1,6 @@
 pipeline {
     agent any // Utilise un agent disponible pour exécuter ce pipeline
 
-    environment {
-        // Définir des variables d'environnement si nécessaire
-    }
-
     stages {
         stage('Clone Repository') {
             steps {
